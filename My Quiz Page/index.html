@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Quiz Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>My Quiz Page</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>1. 다음 중 천만 영화가 아닌 것은?</h2>
+            <div class="question" id="question1">
+                <label><input type="radio" name="q1" value="a"> A. 명량</label><br>
+                <label><input type="radio" name="q1" value="b"> B. 기생충</label><br>
+                <label><input type="radio" name="q1" value="c"> C. 도둑들</label><br>
+                <label><input type="radio" name="q1" value="d"> D. 택시운전사</label>
+            </div>
+        </section>
+
+        <section>
+            <h2>2. 우리나라가 2024 파리올림픽에서 메달을 따지 못한 종목은?</h2>
+            <div class="question" id="question2">
+                <label><input type="radio" name="q2" value="a"> A. 양궁</label><br>
+                <label><input type="radio" name="q2" value="b"> B. 유도</label><br>
+                <label><input type="radio" name="q2" value="c"> C. 축구</label><br>
+                <label><input type="radio" name="q2" value="d"> D. 배드민턴</label>
+            </div>
+        </section>
+
+        <section>
+            <h2>3. 뉴진스(NewJeans)의 데뷔곡은 무엇인가요?</h2>
+            <div class="question" id="question3">
+                <input type="text" id="q3-answer">
+            </div>
+        </section>
+
+        <button onclick="submitQuiz()">Submit</button>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 My Quiz Page</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
